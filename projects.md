@@ -37,6 +37,10 @@ This project included:
 
 ### Estimator (RokkinCat Internal Tooling)
 
+At RokkinCat we frequently produce cost & time estimates to tell our clients how long a project will take and what budget is required. Estimator is a piece of internal tooling to help with that process. With estimator, an engineer will break down a product or feature into a set of "stories" and then give a high, expected, and low number of hours for each story. This is known as PERT estimation. Using these data points, a probability distribution is calculated for the total time that the project will take across all features and an estimate is selected, usually in the 80th-95th percentile, depending on risk tolerance for the project.
+
+I worked with Jason to implement this system in Elixir & Ember.
+
 ### Frontend and CMS (Region.co.uk)
 
 > Hyperlocal news site and custom CMS for Region.co.uk
@@ -54,6 +58,8 @@ After building out the first version of the site, I designed the architecture fo
 ### SwayDM
 
 > Backend for paid messaging platform SwayDM (https://sway.dm)
+
+Built administrative UI, search functionality, and backend updates for sending messages to multiple recipients.
 
 ## Server Management
 
