@@ -61,6 +61,12 @@ After building out the first version of the site, I designed the architecture fo
 
 Built administrative UI, search functionality, and backend updates for sending messages to multiple recipients.
 
+### Beyond The Bell
+
+Elixir application hooked up to AirTable for content management. Provided an API for their mobile application.
+
+mid-2019, pretty short project.
+
 ## Server Management
 
 ### SAFIO Solutions
@@ -92,6 +98,22 @@ In order to make the site more manageable, I:
 - Setup a staging server with an identical configuration to test changes before they are deployed to the main site
 - Configured NGINX to cache certain expensive API endpoints
 - Enabled process monitoring and restarting of their show archival service using systemd
+
+## Ruby
+
+### Manomet GSC
+
+late-2019
+
+Updated an outdated Ruby on Rails + PostgreSQL app used by a company that audits the environmental impact of grocery stores. Fixed lots of broken features.
+
+### CTEC
+
+mid-2019
+
+Transitioned a legacy Ruby on Rails + MongoDB application used by a construction company from DigitalOcean to Heroku to make maintenance easier
+
+Also upgraded a ton of outdated Ruby code.
 
 ## Node.js
 
